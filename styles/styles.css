@@ -1,0 +1,149 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+
+:root {
+  --color-primary-dark: #011c44;
+  --color-primary-light: #2b7fff;
+  --color-brand-light: #ffffff;
+  --color-secondary-gray1: #4a4a4a;
+  --color-secondary-gray2: #747272;
+  --color-secondary-dblue: #011f4a;
+  --color-secondary-yellow: #ffd02b;
+}
+
+/* Base */
+body {
+  color: var(--color-primary-dark);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Button */
+.button {
+  color: var(--color-brand-light);
+  font-size: 18px;
+  font-weight: 600;
+  background: var(--color-primary-light);
+  border: 2px solid var(--color-primary-light);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-primary-light);
+  background-color: transparent;
+}
+
+.second-title {
+  font-size: 12px;
+  text-align: center;
+}
+
+.upper-hero {
+  font-size: 18px;
+}
+
+.hero-title {
+  color: var(--color-primary-light);
+  font-size: 140px;
+  font-size: 700;
+}
+
+/* Link */
+.link {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-primary-light);
+  font-size: 700;
+}
+
+/* Reincarnation */
+.reincarnation-title .accent {
+  color: var(--color-primary-light);
+}
+
+/* People */
+.advanced-title .accent {
+  color: var(--color-primary-light);
+}
+
+/* Procedures */
+.procedures-title .accent {
+  color: var(--color-primary-light);
+}
+
+/* Contact */
+.contact-title .accent {
+  color: var(--color-primary-light);
+}
+
+.form-for-call {
+  font-size: 22px;
+}
+
+/* Button-form */
+.button-form {
+  color: var(--color-brand-light);
+  font-size: 18px;
+  font-weight: 600;
+  background: var(--color-primary-light);
+  border: 2px solid var(--color-primary-light);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button-form:hover {
+  color: var(--color-primary-light);
+  background-color: transparent;
+}
+
+/* User-agrement */
+
+.user-agrement {
+  font-size: 12px;
+  color: var(--color-secondary-gray2);
+}
+
+/* Footer */
+
+.adress-link {
+  color: var(--color-brand-light);
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.adress-link:hover {
+  color: var(--color-brand-light);
+}
+
+.address-copyright {
+  font-size: 14px;
+  color: var(--color-secondary-gray2);
+}
